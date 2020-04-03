@@ -94,6 +94,12 @@
                 </svg>
             </a>
         </div>
+        <h1 class="text-center mt-4 pt-4 text-lg">
+            PHP Version:
+            <span class="font-semibold">
+            <?php echo phpversion(); ?>
+            </span>
+        </h1>
         <div class="mt-20 max-w-2xl mx-auto md:w-full flex flex-col md:flex-row self-center md:self-stretch md:justify-between text-lg uppercase text-gray-900 font-semibold">
             <a href="https://cleaver.cloud/docs" target="_docs" class="hover:text-red-600 flex mt-4 align-middle">
                 <svg class="mr-2 text-gray-700 h-5 self-center" aria-hidden="true" focusable="false" role="img"
